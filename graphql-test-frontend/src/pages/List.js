@@ -35,7 +35,7 @@ const List = () => {
                     return !loading && (
                         <Container className="minFullHeight">
                             <TableContainer>
-                                <Table size="small" aria-label="simple table" className="bg-white " stickyHeader>
+                                <Table size="small" aria-label="simple table" className="bg-white mt-3" stickyHeader>
                                     <TableHead>
                                         <TableRow>
                                             <TableCell align="center"><strong>Name</strong></TableCell>
