@@ -28,7 +28,7 @@ const Welcome = ({ history }) => {
                 </Button>
                 </div>
                 <div className={classes.textCenter}>
-                    <Button color="text" onClick={() => history.push('/agentslist')} >
+                    <Button onClick={() => history.push('/agentslist')} >
                         View Registered Agents
                 </Button>
 
