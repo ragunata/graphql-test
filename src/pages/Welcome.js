@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
     },
     textCenter: {
         textAlign: "center",
-        color: '#fff'
+        color: '#fff',
+        marginTop: 4
     }
 }));
 
@@ -26,8 +27,14 @@ const Welcome = ({ history }) => {
                         Click to Register
                 </Button>
                 </div>
+                <div className={classes.textCenter}>
+                    <Button color="text" onClick={() => history.push('/agentslist')} >
+                        View Registered Agents
+                </Button>
+
+                </div>
             </Grid>
-        </Grid>
+        </Grid >
     )
 }
 

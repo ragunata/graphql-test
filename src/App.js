@@ -33,7 +33,7 @@ function App() {
           <div className="App">
             <Switch>
               <Route path="/register" exact component={Register} />
-              <Route path="/admin" exact component={List} />
+              <Route path="/agentslist" exact component={List} />
               <Route path="/" exact component={Welcome} />
             </Switch>
           </div>
